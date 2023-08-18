@@ -1,16 +1,5 @@
-# food_recipe
+# Food Recipe App
 
-A new Flutter project.
+<img src = "https://github.com/itsRamit/Food_Recipe_App/assets/127865288/7825b0c1-25fa-47f8-b50d-907e32a80764" width = "200">
+<img src = "https://github.com/itsRamit/Food_Recipe_App/assets/127865288/15e6fc1d-459b-4d4a-8c67-10f3db9e0eb0" width = "200">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
