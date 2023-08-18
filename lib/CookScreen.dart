@@ -102,7 +102,7 @@ class _CookScreenState extends State<CookScreen> {
                     children: [
                       Container(
                         width: w,
-                        height: h / 2.5,
+                        height: h / 2.8,
                         decoration: BoxDecoration(
                           color: Colors.white,
                           image: DecorationImage(
@@ -112,7 +112,7 @@ class _CookScreenState extends State<CookScreen> {
                         ),
                       ),
                       Positioned(
-                        top: h / 2.70,
+                        top: h / 3,
                         child: Container(
                           width: w,
                           height: h / 25,
@@ -131,7 +131,11 @@ class _CookScreenState extends State<CookScreen> {
                         width: w / 20,
                       ),
                       Text(
-                        DishName,
+                        DishName.length <= 25
+                            ? DishName
+                            : DishName.substring(0, 25) +
+                                '\n' +
+                                DishName.substring(25, DishName.length),
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 30,
@@ -154,7 +158,7 @@ class _CookScreenState extends State<CookScreen> {
                     ],
                   ),
                   SizedBox(
-                    height: h / 20,
+                    height: h / 70,
                   ),
                   Row(
                     children: [
@@ -184,7 +188,7 @@ class _CookScreenState extends State<CookScreen> {
                     ),
                   ),
                   SizedBox(
-                    height: h / 20,
+                    height: h / 70,
                   ),
                   Row(
                     children: [

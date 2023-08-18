@@ -1,5 +1,16 @@
-# Food_Recipe_App
-A project that generate the recipe of the food that user will select as well as it also show the calories & time it take to cook.
-## Screenshots
-![WhatsApp Image 2023-08-14 at 11 33 19 PM](https://github.com/itsRamit/Food_Recipe_App/assets/127865288/1a5e9567-2eb1-4f85-80e2-746eb4230d1d)
-![WhatsApp Image 2023-08-14 at 11 33 55 PM](https://github.com/itsRamit/Food_Recipe_App/assets/127865288/5e012ca7-7882-4341-aee6-0addec5806b7)
+# food_recipe
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

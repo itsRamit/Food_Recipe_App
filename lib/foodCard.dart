@@ -89,7 +89,7 @@ class _foodCardState extends State<foodCard> {
                     ),
                   ),
                   Text(
-                    name,
+                    name.length <= 18 ? name : name.substring(0, 18) + '...',
                     style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 15,
